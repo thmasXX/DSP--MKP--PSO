@@ -1,4 +1,4 @@
-# DSP--MKP--PSO
+# Digital Systems Project 2020-2021
 Data files are marked 1-10 (do not change contents).
 Different Python Files are available.
    - Simple PSO containing Single Mutation
