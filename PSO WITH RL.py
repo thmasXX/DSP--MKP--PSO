@@ -223,10 +223,11 @@ def pso(population, pBest, gBest, Vmax, Vmin, optimumValue, swarmSize, n, m, siz
                     #Assign particle Q-Learning already.
                     newpopulation[j][0] = QLearning[QLvalueIndex][2][0]
 
-                #If not within table, add new q-learning to table and assign mutation.
+                #No mutation used if no better state.
                 elif (QLvalue in QLearning) & (reward == -1.0):
-                    continue
+                    newpopulation[j][0] = newpopulation[j][0]
 
+                #If not within table, add new q-learning to table and assign mutation.
                 else:
                     QLearning.append(QLvalue)
                     newpopulation[j][0] = QLvalue[2][0]
