@@ -9,7 +9,9 @@ Different Python Files are available.
 Testing Data is shown in the appendices or in the TESTING DATA excel file.
 
 **PLEASE MAKE SURE PYTHON FILES ARE IN SAME DIRECTORY AS TEXT FILES**
+
 **PROGRAM REQUIRES copy, numpy, matplotlib, random, csv LIBRARIES**
+
 **PROGRAM WAS BUILT ON PYTHON 3.9.4**
 
 When starting program:
