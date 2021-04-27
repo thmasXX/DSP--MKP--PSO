@@ -14,6 +14,12 @@ Testing Data is shown in the appendices or in the TESTING DATA excel file.
 
 **PROGRAM WAS BUILT ON PYTHON 3.9.4**
 
+**RUN THE PROGRAM IN IDLE**
+
+Due to the pathing of the data files, you will need to run it in IDLE as it recognises text files
+are within the same directory.
+However, you can go into the code and change the paths of the files if necessary.
+
 When starting program:
    - Input any choice of file (1-10).
    - Optimisation will start going through generation outputting best fitness.
